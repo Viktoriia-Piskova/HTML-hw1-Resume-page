@@ -1,7 +1,89 @@
 * {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: rgba(4, 170, 109, 0.3);
+    
+
+}
+
+#center{
+    margin: 0% 10% ;
+    background-color: #f1f1f1;
+
 }
 
 h2{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(4, 170, 109, 1);
+    font-weight: 2000;
+    /*text-shadow: #616261 1px 1px 1px;*/
+
 }
+hr {
+    border-style: solid;
+    color: rgba(4, 170, 109, 0.7);
+    border-width: 20px;
+    
+    
+}
+
+.main-info {
+    display: flex;
+    justify-content: space-between;
+    background-color: #E7E9EB;
+}
+
+#text-main-info{
+    text-indent: 10px;
+}
+#heading{
+    background-color: #323633;
+    color: #f7fcf9;
+    font-size: larger;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.contact{
+    width: 20%;
+    height: 40px;
+    border-radius: 2px;
+    background-color: rgba(4, 170, 109, 1);
+    display: inline-flex;
+    padding: 5px;
+    
+ 
+}
+.contact a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    margin: auto;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    background-color: #323633;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+footer.fixed{
+    position: sticky;
+    bottom: 0px;
+    width: 100%;
+}
+
