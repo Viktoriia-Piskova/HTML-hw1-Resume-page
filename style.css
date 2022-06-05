@@ -47,8 +47,17 @@ h2{
 .main-info>img{
     min-width: 300px;
     max-width: 500px;
-    display: block;
+    display: block; 
 }
+
+@media screen and (max-width: 860px) {
+    .main-info>img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
 
 #text-main-info{
     text-indent: 10px;
